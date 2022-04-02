@@ -1,0 +1,64 @@
+Smarto launches SmartboardPro for its Users.
+Smarto's new product helpes learning become more interactive and effective for the remote pupils.
+
+	March 29th, 2022. Smarto after building effective LMS platforms for students and teachers along with video conferencing and chatrooms strives to go 
+one step ahead to make learning more fun. Smarto has always believed in leveraging the use of technology to transform lives.
+With the Pandemic in mind and as things have been revolutionized to the all-remote world, we believe that use of white boards should be changed to SmartJamboardPro,
+where in Techers can make use of Several tools to transform learning experiences for students.
+SmartBoardPro dosent ask you to purchase a different set of hardware, it has integrated this feature on the currently used LMS platform itself.
+	SmartBoard provides features starting with multiple background where in you can choose blankscreen/dottedlines/graphscreen/coloredscreen based on the requirement.
+SmartBoard also provides multi-colored pen tools to highlight differences and also erasers to wipe off when needed.
+You can add on sticky notes, pictures and most importantly external short videos as well.
+Just to keep your students concentration intact, you can use the Laser to point out on the topics with no delay.
+Last but not the least you can download this as a pdf or an image for future reference.
+SmartBoardPro feature will be free for the first  months and then will be charged on subscription basis
+	SmartBoardPro solve many problems, One such is while the class in ongoing students to take notes alongside and find it difficult to concentrate 100%,
+With Smarto's new feature, all the content written by the constructor can be saved and reviewed for future reference and with which students can focus 100%.
+With SmartBoardPro not just the teacher but students can also make changes to the board when needed,
+Teachers can enable and disable access as per needs so that students dont misuse it.
+	"SmartBoardPro is just the first of many steps to revolutionized remote learning which is already being used by our several clients" said CMO of Smarto
+"Making Learning Fun and interesting for students is the main goal for Smarto"
+	"Students have become really attentive in the sessions after we have started using Smarto's SmartBoardPro feature" said Dean of Gurukul College.
+	Head on to the Smarto.com to experience new-age learning and its absolutely free for the first 3 months.
+	
+FAQ's
+1. How can I start using SmartBoardPro?
+For existing users, just purchase the product/service from the menu bar,
+once order is placed, you will have free access to using SmartBoardPro for the first 3 months.
+
+2. By when i can have access to a saved Jamboard ?
+You will have lifetime access to the saved Jamboard
+
+3. How is SmartBoardPro different from Google Jamboard ?
+SmartBoardPro allows you to upload short videos and the latency of laser in SmartBoardPro is much much better than the Google Jamboard
+
+4. Can a new user get access to SmartBoardPro ?
+Yes, just creat the account, oomplete some basic forms and you can avail free service of SmartBoardPro for the first 3 months
+
+5. How much will Smarto charge for SmartBoardPro after the free trial ends ?
+a. For classes having students 10-20 fees would be around 2999/- + GST monthly and  29999/- yearly 
+b. For classes having students 20-50 fees would be around 7999/- + GST monthly and  79999/- yearly 
+
+6. is credit card information needed while enrolling for free trial ?
+No, we dont ask for credit card information
+
+7. Will my institution's data be secured ?
+Yes, Smarto keeps your data absoulutely secure with advance security mechanisms.
+
+Internal FAQ's	
+
+How will we secure the portal from external threats ?
+We gonna use MFA to avoid threats
+
+What are gonna be our rollout and rollback strategies ?
+We are gonna launch this application in 4 countries and we roll this out one by one,
+Regarding rollback, we wil check which section of users are facing issues and will require downtime in that specific country to find RCA
+
+How are we edging over our competitors ?
+We have better UI than our main competitor Google Jamboard,
+Our laser has low latency reachability as compared to Google Jamboard,
+Our USP is we can also upload short videos on our SmartBoardPro
+
+How to clean up used boards from our DB ?
+As and wehn the Jamboards become 6 months old, a notification will be popped up to the user asking to delete it permanently,
+Here, 6 months is used with referenceto one semester
