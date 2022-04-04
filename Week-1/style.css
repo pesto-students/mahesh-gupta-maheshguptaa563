@@ -20,7 +20,7 @@ footer
  background-color: #6F8FAF;
  position: relative;
  height: 100px;
- margin-top: 165px;
+ margin-top: 0px;
  clear: both;
 }
 .nav-left{
@@ -35,4 +35,34 @@ footer
     display: block;
     background-color: #D3D3D3;
     padding: 20px 7px;
+}
+.bodywrapper {
+
+    display: flex;
+}
+.semibodywrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.headwrapper{
+    background-color: #696969;
+}
+.semiheadwrapper {
+    display: flex;
+}
+.imagewrapper{
+    padding: 10px;
+}
+.textwrapper {
+    color: white;
+}
+.semitextwrapper {
+    font-size: small;
+}
+.secsemitextwrapper{
+    font-size: small;
+}
+.maintextwrapper {
+    
 }

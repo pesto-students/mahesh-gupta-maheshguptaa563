@@ -1,0 +1,13 @@
+.nav-left {
+ background: #000;
+ width: 3%;
+ height: 85%;
+ text-align: center;
+ display: inline-block;
+}
+
+.nav-left a {
+ display: block;
+ background-color: #D3D3D3;
+ padding: 16px 0px;
+}
