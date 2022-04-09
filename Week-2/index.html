@@ -11,6 +11,10 @@
     body {
       margin: 0px;
     }
+
+    form {
+      display: block;
+    }
   </style>
 </head>
 
@@ -76,9 +80,23 @@
         </article>
       </div>
     </div>
-    <form action="/" method="post">
-
-    </form>
+    <div class="formwrapper">
+      <form action="">
+        <div class="mainformwrapper">
+          <div class="infowrapper">
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email"> <br>
+            <label for="name">Enter your name:</label>
+            <input type="name" id="name" name="name">
+          </div>
+          <div class="querywrapper">
+            <textarea rows="3" cols="40" name="comment" form="usrform">
+        Enter query here...</textarea>
+          </div>
+          <button class="myButton">Submit</button>
+        </div>
+      </form>
+    </div>
     <footer>
       <div class="parentfootwrapper">
         <div class="footimagewrapper">
