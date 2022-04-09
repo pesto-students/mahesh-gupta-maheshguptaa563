@@ -1,0 +1,39 @@
+.headwrapper {
+ text-align: center;
+}
+.parentdescriptionwrapper {
+ display: flex;
+
+}
+.articlewrapper {
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+.mainbodywrapper {
+ display: flex;
+ justify-content: space-evenly;
+}
+.imagewrapper {
+padding-left: 100px;
+padding-top: 50px;
+}
+footer
+{
+ background-color: #231F20;
+ position: relative; 
+ height: 100px;
+ display: flex;
+ flex-direction: row;
+ margin-top: 0px;
+ clear: both;
+}
+.parentfootwrapper {
+ margin-top: 0px;
+ display: flex;
+ justify-content: space-evenly;
+}
+
+.infowrapper {
+ color: antiquewhite;
+}
