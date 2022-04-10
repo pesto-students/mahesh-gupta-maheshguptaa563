@@ -1,3 +1,7 @@
-.parentwrapper {
+#parentwrapper {
  display: flex;
+}
+
+#firsthalf {
+ margin-left: 200px; 
 }

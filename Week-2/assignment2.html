@@ -18,7 +18,8 @@
   }
 
   #app1:hover {
-   transform: rotate(90deg);
+   transform-origin: left;
+   transform: translateX(-100px) rotate(180deg);
   }
 
   #app2 {
@@ -31,7 +32,8 @@
   }
 
   #app2:hover {
-   transform: rotate(90deg);
+   transform-origin: left;
+   transform: translateX(-100px) rotate(180deg);
   }
 
   #app3 {
@@ -44,7 +46,8 @@
   }
 
   #app3:hover {
-   transform: rotate(90deg);
+   transform-origin: right;
+   transform: translateX(100px) rotate(180deg);
   }
 
   #app4 {
@@ -57,18 +60,19 @@
   }
 
   #app4:hover {
-   transform: rotate(90deg);
+   transform-origin: right;
+   transform: translateX(100px) rotate(180deg);
   }
  </style>
 </head>
 
 <body>
- <div class="parentwrapper">
-  <div class="firsthalf">
+ <div id="parentwrapper">
+  <div id="firsthalf">
    <div id="app1"></div>
    <div id="app2"></div>
   </div>
-  <div class="secondhalf">
+  <div id="secondhalf">
    <div id="app3"></div>
    <div id="app4"></div>
   </div>
