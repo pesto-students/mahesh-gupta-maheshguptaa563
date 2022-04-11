@@ -8,7 +8,7 @@
  <title>Document</title>
  <link rel="stylesheet" href="index2.css">
  <style>
-  #app1 {
+  .app1 {
    width: 100px;
    height: 100px;
    background-color: red;
@@ -16,13 +16,7 @@
    transition-duration: 2s;
    transition-timing-function: ease;
   }
-
-  #app1:hover {
-   transform-origin: left;
-   transform: translateX(-100px) rotate(180deg);
-  }
-
-  #app2 {
+  .app2 {
    width: 100px;
    height: 100px;
    background-color: blue;
@@ -30,13 +24,7 @@
    transition-duration: 2s;
    transition-timing-function: ease;
   }
-
-  #app2:hover {
-   transform-origin: left;
-   transform: translateX(-100px) rotate(180deg);
-  }
-
-  #app3 {
+  .app3 {
    width: 100px;
    height: 100px;
    background-color: yellow;
@@ -45,12 +33,7 @@
    transition-timing-function: ease;
   }
 
-  #app3:hover {
-   transform-origin: right;
-   transform: translateX(100px) rotate(180deg);
-  }
-
-  #app4 {
+  .app4 {
    width: 100px;
    height: 100px;
    background-color: green;
@@ -58,23 +41,20 @@
    transition-duration: 2s;
    transition-timing-function: ease;
   }
-
-  #app4:hover {
-   transform-origin: right;
-   transform: translateX(100px) rotate(180deg);
-  }
  </style>
 </head>
-
 <body>
- <div id="parentwrapper">
-  <div id="firsthalf">
-   <div id="app1"></div>
-   <div id="app2"></div>
+ <div  class="parentwrapper">
+  <div class="firsthalf">
+   <div class="app1"></div>
+   <div class="app2"></div>
   </div>
-  <div id="secondhalf">
-   <div id="app3"></div>
-   <div id="app4"></div>
+  <div class="hi">
+   <h1>Hi!</h1>
+  </div>
+  <div class="secondhalf">
+   <div class="app3"></div>
+   <div class="app4"></div>
   </div>
  </div>
 </body>
