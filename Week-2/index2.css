@@ -1,0 +1,30 @@
+.parentwrapper {
+ display: flex;
+}
+
+.firsthalf {
+ margin-left: 200px; 
+}
+.parentwrapper:hover .app1 {
+ transform-origin: left;
+ transform: translateX(-100px) rotate(180deg);
+}
+.parentwrapper:hover .app2 {
+ transform-origin: left;
+ transform: translateX(-100px) rotate(180deg);
+}
+.parentwrapper:hover .app3 {
+ transform-origin: right;
+ transform: translateX(100px) rotate(180deg);
+}
+
+.parentwrapper:hover .app4 {
+ transform-origin: right;
+ transform: translateX(100px) rotate(180deg);
+}
+.hi {
+ position: absolute;
+ z-index: -1;
+ top: 100px;
+ margin-left: 300px;
+}
