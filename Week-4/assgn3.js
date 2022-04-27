@@ -1,21 +1,24 @@
-let initNumber = -1
-
-const myFunction = (num) => {
-
-    if(num < 2) {
-        return num;
+const Fib = {
+ n:7,
+ [Symbol.iterator]: function() {
+  let i = 1;
+  let old = 0, new1 = 0;
+  return {
+   next: () => { 
+    if (i++ <= this.n) {
+     [old, new1] = [new1, (old + new1) || 1];
+     return {value:old, done:false}
     }
     else {
-        return myFunction(num-1) + myFunction(num - 2);
+     return {done: true}
     }
-}
+   }
+  }
+ }
+};
 
-const initiator = () => {
-    if (initNumber <= 5) {
-        initNumber = initNumber + 1
-        console.log(myFunction(initNumber))
-        initiator()
-    }
-}
 
-initiator()
+
+for(let num of Fib) {
+ console.log(num);
+}
