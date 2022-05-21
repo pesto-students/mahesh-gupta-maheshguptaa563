@@ -17,7 +17,9 @@ function pairDiff(arr, size, diff) {
 
 var arr = [10, 7, 9, 15];
 arr.sort(function(a, b) {
-  return a - b;
+  if(a > b) return 1;
+  if(a < b) return -1;
+  return 0;
 });
 let size = arr.length;
 console.log(pairDiff(arr, 4, size));
