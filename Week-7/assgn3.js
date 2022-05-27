@@ -32,4 +32,3 @@ fourth.next = second;
 console.log(findLoop(head));
 
 
-// printList();
