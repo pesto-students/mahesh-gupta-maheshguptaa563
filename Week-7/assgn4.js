@@ -2,7 +2,7 @@ function paranChecker(s) {
   let stck = [];
   for (let i = 0; i < s.length; i++) {
     let char = stck[stck.length - 1];
-    console.log(char);
+    // console.log(char);
     if (s[i] == "(" || s[i] == "{" || s[i] == "[") {
       stck.push(s[i]);
     } else if (
@@ -20,7 +20,7 @@ function paranChecker(s) {
   }
 }
 
-var str = "{()}";
+var str = "[()]{}{()()}";
 let s = [];
 s = str.split("");
 // console.log(s);
