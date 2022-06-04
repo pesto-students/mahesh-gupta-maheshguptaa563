@@ -1,0 +1,10 @@
+.headercontainer {
+ height: 70px;
+ background-color: black;
+ text-align: center;
+ color: white;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+}
