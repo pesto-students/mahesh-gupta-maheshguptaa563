@@ -5,7 +5,6 @@ class Node {
   }
 }
 let root;
-
 function isBST(node) {
   if (node === null) {
     return true;
@@ -16,12 +15,11 @@ function isBST(node) {
   if (node.right != null && node.right.data < node.data) {
     return false;
   }
-  if (!isBST(node.left) || !isBST * node.right) {
+  if (!isBST(node.left) || !isBST(node.right)){
     return false;
   }
   return true;
 }
-
 root = new Node(9);
 root.left = new Node(8);
 root.right = new Node(12);
