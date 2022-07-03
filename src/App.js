@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import BackgroundAnimate from "./BackgroundAnimate";
+import InputShortener from "./InputShortener";
+import LinkResult from "./LinkResult";
+import Navbar from "./Navbar";
+import ContactUs from "./pages/ContactUs";
+import {Route, Routes} from "react-router-dom"
 
 function App() {
+  const [inputValue, setinputValue] = useState("");
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <div className="componentContainer">
+        <Routes>
+          <Route path="/ContactUs" element={<ContactUs />} />
+        </Routes>
+      </div>
+      <div className="container">
+        <InputShortener setinputValue={setinputValue} />
+        <BackgroundAnimate />
+        <LinkResult inputValue={inputValue} />
+      </div>
+    </>
   );
 }
-
 export default App;
