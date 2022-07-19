@@ -1,0 +1,15 @@
+.ac-item-container {
+ width : 100%;
+ background-color: coral;
+ margin: 8px 0;
+ display: flex;
+ justify-content: space-between;
+}
+
+.item-btn {
+ background-color: crimson;
+ border-radius: 8px;
+ border: none;
+ outline: none;
+ padding: 8px;
+}

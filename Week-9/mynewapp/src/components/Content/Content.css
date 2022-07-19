@@ -1,0 +1,7 @@
+.todocontainer {
+ background-color: blanchedalmond;
+ min-height: 100vh;
+ display: flex;
+ justify-content: space-around;
+ padding: 40px;
+}
